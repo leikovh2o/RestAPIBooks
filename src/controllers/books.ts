@@ -4,7 +4,6 @@ import { IBook } from '../models';
 
 let books: IBook[] = [];
 
-
 export const getBooks = ( req, res) => {
   res.send(books);
 };
