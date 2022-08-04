@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 
-import booksRoutes from './books.js';
+import booksRoutes from './routes/books.js';
 
 const app = express();
 const PORT = 8080;
